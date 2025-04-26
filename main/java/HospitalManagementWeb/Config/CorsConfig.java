@@ -19,7 +19,7 @@ public class CorsConfig {
             public void addCorsMappings(CorsRegistry registry) {
 
                 registry.addMapping("/**")
-                        .allowedOriginPatterns("http://localhost:3000") // Specify the origin explicitly
+                        .allowedOriginPatterns("https://hospitalmanagmentsystem.vercel.app/") // Specify the origin explicitly
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*") // Allow any headers
                         .allowCredentials(true); // Allow credentials (cookies, headers, etc.
